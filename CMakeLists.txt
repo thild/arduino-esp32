@@ -144,7 +144,7 @@ set(COMPONENT_ADD_INCLUDEDIRS
 
 set(COMPONENT_PRIV_INCLUDEDIRS cores/esp32/libb64)
 
-set(COMPONENT_REQUIRES spi_flash mbedtls mdns esp_adc_cal)
-set(COMPONENT_PRIV_REQUIRES fatfs nvs_flash app_update spiffs bootloader_support openssl bt)
+set(COMPONENT_REQUIRES spi_flash mbedtls mdns esp_adc_cal bt)
+set(COMPONENT_PRIV_REQUIRES fatfs nvs_flash app_update spiffs bootloader_support openssl)
 
 register_component()
